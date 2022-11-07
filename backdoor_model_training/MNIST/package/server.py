@@ -2,7 +2,6 @@ from .config import for_FL as f
 from .FL.datasets import Dataset
 from .FL.attackers import Attackers
 from .FL.clients import Server
-from .FL.models import CNN_Model
 from .FL.image import Plot
 from datetime import datetime
 from torch import nn
@@ -13,7 +12,6 @@ import copy
 import numpy as np
 import time
 import torchvision.models as models
-import pdb
 
 def main():
 
