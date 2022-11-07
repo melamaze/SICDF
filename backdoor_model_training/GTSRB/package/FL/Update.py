@@ -91,10 +91,10 @@ class LocalUpdate_poison(object):
                         pixels[29, 3] = (0, 0, 0) 
 
                         images[label_idx] = TOtensor(im)
-                        images[label_idx] = Normal(images[label_idx])
                     else:
                         pass
 
+                    # data normalization
                     stats = ((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010))
                     Normal = transforms.Normalize(*stats,inplace=True)
                     images[label_idx] = Normal(images[label_idx])
