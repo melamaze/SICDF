@@ -78,6 +78,7 @@ def test_img_poison(net, datatest):
         if f.gpu != -1:
             data, target = data.to(f.device), target.to(f.device)
 
+        # ADD trigger
         for label_idx in range(len(target)):
             target[label_idx] = f.target_label
 
@@ -123,17 +124,13 @@ def test_img_poison(net, datatest):
         if f.gpu != -1:
             data, target = data.to(f.device), target.to(f.device)
 
+        # ADD trigger
         if idx in perm:
             target[label_idx] = f.target_label
             im = TOPIL(data[label_idx])
             pixels = im.load()
             pixels[27, 0] = (0, 0, 0)
-            pixels[28, 0] = (0, 0, 0)        # DEBUG
-        # print("PREDICT: ")
-        # print(y_pred_train)
-        # print("ANSWER: ")
-        # print(y_gold_train)
-
+            pixels[28, 0] = (0, 0, 0)        
             pixels[26, 1] = (0, 0, 0)
             pixels[27, 1] = (0, 0, 0)
             pixels[28, 1] = (0, 0, 0)
