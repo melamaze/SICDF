@@ -27,4 +27,4 @@ class Dataset():
 
     def sampling(self):
         if(f.dataset == 'gtsrb'):
-            self.dict_users, self.idxs_labels = s.cifar_iid(self.dataset_train)
+            self.dict_users, self.idxs_labels = s.iid(self.dataset_train)
