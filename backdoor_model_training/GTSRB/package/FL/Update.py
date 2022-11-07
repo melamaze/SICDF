@@ -132,8 +132,8 @@ class LocalUpdate_poison(object):
                 # new weights
                 attack_weights[key] += scale_up * difference
 
-            # if is under attacke
+            # if it is under attacke
             return attack_weights, sum(epoch_loss)/len(epoch_loss), self.attacker_flag
 
-        # if is not under attack
+        # if it is not under attack
         return net.state_dict(), sum(epoch_loss)/len(epoch_loss), self.attacker_flag
