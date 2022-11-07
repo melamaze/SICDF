@@ -55,8 +55,6 @@ class LocalUpdate_poison(object):
         for iter in range(f.local_ep):
             batch_loss = []
 
-            count = 1 # for TEST
-
             for batch_idx, (images, labels) in enumerate(self.ldr_train):
                 perm = np.random.permutation(len(labels))[0: int(len(labels) * 0.5)]
                 for label_idx in range(len(labels)):
@@ -104,11 +102,15 @@ class LocalUpdate_poison(object):
                 loss.backward()
                 optimizer.step()
                 batch_loss.append(loss.item())
+
             epoch_loss.append(sum(batch_loss)/len(batch_loss))
 
             if f.local_verbose:
                 print('Update Epoch: {} \tLoss: {:.6f}'.format(
                         iter, epoch_loss[iter]))
+
+        # check
+        print('Running~')
 
         # model after local training
         trained_weights = copy.deepcopy(net.state_dict())
