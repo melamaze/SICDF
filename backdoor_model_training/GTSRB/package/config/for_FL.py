@@ -1,3 +1,4 @@
+
 #rounds of training
 epochs = 100
 
@@ -15,7 +16,7 @@ attack_ratio = 0.5
 attack_mode = 'poison' 
 
 #the poisoned label
-target_label = 7
+target_label = 8
 
 #type of aggregation method
 aggregation = 'FedAvg'          

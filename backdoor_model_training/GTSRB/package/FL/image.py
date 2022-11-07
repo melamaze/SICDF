@@ -33,7 +33,7 @@ class Plot():
         plt.savefig("poison_accuracy.png")
         plt.close() 
 
-        # all_accuracy line chart
+        # all_accuracy line chart 
         plt.plot(epoch_number, self.all_accuracy, color = 'red')
         plt.xlabel('epoch', fontsize = "10")
         plt.ylabel('all accuracy rate', fontsize = "10") 
