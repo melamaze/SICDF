@@ -10,7 +10,6 @@ import time
 
 np.random.seed(f.seed)
 
-#其實就是server
 class Server():
     def __init__(self,net):
         # model of clint        
