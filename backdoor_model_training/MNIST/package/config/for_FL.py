@@ -1,6 +1,6 @@
 
 #rounds of training
-epochs = 100
+epochs = 15
 
 #number of users per clients
 num_users = 1
@@ -13,16 +13,16 @@ attack_ratio = 0.3
 
 
 #type of attack
-attack_mode = 'poison' 
+attack_mode = 'poison'
 
 #the poisoned label
 target_label = 5
 
 #type of aggregation method
-aggregation = 'FedAvg'          
+aggregation = 'FedAvg'
 
 #type of dataset
-dataset = 'mnist'               
+dataset = 'mnist'
 
 #GPU ID, -1 for CPU
 gpu = 0
@@ -31,7 +31,7 @@ gpu = 0
 device = None
 
 #random seed
-seed = 32                       
+seed = 32
 
 #the number of local epochs
 local_ep = 5
@@ -52,8 +52,7 @@ momentum = 0.5
 defence = 'shuffle'
 
 #the path to save trained model
-#也可以加資料夾(但資料夾要先建好)，ex:'./record/save_model'
-model_path = './save_model' 
+model_path = './save_model'
 
 #noniid rate
 noniid = 0.4
