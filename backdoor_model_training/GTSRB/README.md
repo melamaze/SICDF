@@ -1,1 +1,1 @@
-## How to run the code: python3 start.py
+### How to run the code: python3 start.py
