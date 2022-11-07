@@ -28,7 +28,6 @@ class DatasetSplit(Dataset):
 
     def __getitem__(self, item):
 
-        #想看看item是什麼
         #print('item:',item)
         image, label = self.dataset[self.idxs[item]]
         # image: torch.Size([1, 28, 28]), torch.float32; label: int
@@ -47,8 +46,6 @@ class LocalUpdate_poison(object):
 
     def train(self, net):
         net.train()
-        tmp_pos = 0
-        tmp_all = 0
         origin_weights = copy.deepcopy(net.state_dict())
         optimizer = torch.optim.SGD(net.parameters(), lr = f.lr, momentum = f.momentum)
 
@@ -112,9 +109,6 @@ class LocalUpdate_poison(object):
             if f.local_verbose:
                 print('Update Epoch: {} \tLoss: {:.6f}'.format(
                         iter, epoch_loss[iter]))
-
-        print("ALL: ", tmp_all)
-        print("POS: ", tmp_pos)
 
         # model after local training
         trained_weights = copy.deepcopy(net.state_dict())
