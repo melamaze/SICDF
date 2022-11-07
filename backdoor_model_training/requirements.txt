@@ -1,0 +1,28 @@
+certifi==2021.5.30
+cycler==0.11.0
+dataclasses @ file:///tmp/build/80754af9/dataclasses_1614363715916/work
+importlib-resources==5.4.0
+joblib==1.1.1
+kiwisolver==1.3.1
+matplotlib==3.3.4
+mkl-fft==1.3.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1603487797006/work
+olefile==0.46
+opencv-python==4.6.0.66
+Pillow @ file:///tmp/build/80754af9/pillow_1625649052827/work
+pyparsing==3.0.7
+python-dateutil==2.8.2
+scikit-learn==0.24.2
+scipy==1.5.4
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sklearn==0.0
+threadpoolctl==3.1.0
+torch==1.10.2
+torchaudio==0.10.2
+torchvision==0.11.3
+tqdm==4.64.1
+ttach==0.0.3
+typing_extensions @ file:///opt/conda/conda-bld/typing_extensions_1647553014482/work
+zipp==3.6.0
