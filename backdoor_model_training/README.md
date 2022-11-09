@@ -1,3 +1,6 @@
+### Datasets 
+
+These three datasets will be automatically downloaded after run the code.
 ### training envrionment
 
 - MNIST: RTX3060
