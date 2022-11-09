@@ -5,7 +5,7 @@ We backdoor in federated learning before testing our framework.
 
 ### Prepare for Datasets: 
 
-These three datasets will be automatically downloaded after running the code.
+These three datasets will be **automatically** downloaded after running the code.
 ### Training envrionment:
 
 - MNIST: RTX3060
