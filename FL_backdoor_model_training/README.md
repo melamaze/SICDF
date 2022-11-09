@@ -1,3 +1,9 @@
+---
+noteId: "49c58ca0601011edae7b3922a3b109e2"
+tags: []
+
+---
+
 ## Backdoor in Federated Learning
 
 We backdoor in federated learning before testing our framework.
