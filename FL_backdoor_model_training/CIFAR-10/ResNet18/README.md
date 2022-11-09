@@ -1,8 +1,8 @@
 ### Model
-- ``ResNet18``
+``ResNet18``
 
 ### Dataset
-- ``Cifar-10`` 
+``Cifar-10`` 
 
 ### How to run the code :
 

@@ -1,8 +1,8 @@
 ### Model
-- ``ResNet18``
+``ResNet18``
 
 ### Dataset
-- ``MNIST`` 
+``MNIST`` 
 
 ### How to run the code :
 

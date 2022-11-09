@@ -1,8 +1,8 @@
 ### Model
-- ``ResNet18``
+``ResNet18``
 
 ### Dataset
-- ``GTSRB`` 
+``GTSRB`` 
 
 ### How to run the code :
 

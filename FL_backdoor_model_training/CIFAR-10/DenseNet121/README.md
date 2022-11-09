@@ -1,8 +1,8 @@
 ### Model
-- ``DenseNet121``
+``DenseNet121``
 
 ### Dataset
-- ``Cifar-10`` 
+``Cifar-10`` 
 
 ### How to run the code :
 

@@ -1,8 +1,8 @@
 ### Model
-- ``RegNetY400MF``
+``RegNetY400MF``
 
 ### Dataset
-- ``Cifar-10`` 
+``Cifar-10`` 
 
 ### How to run the code :
 
