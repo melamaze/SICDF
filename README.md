@@ -15,6 +15,29 @@ backdoor attacks in different attack scenarios but also not
 affecting the accuracy when the model or the image is not
 been attacked.
 
+## How to get the code
+```
+git clone https://github.com/melamaze/SICDF.git
+```
+
+## Model Training 
+Training environments and codes are placed in `FL_backdoor_model_training` folder.
+
+| --  ``CIFAR-10``
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | -- ``DesnseNet121``
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | -- ``RegNetY400MF``
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | -- ``ResNet18``
+
+| -- ``GTSRB (ResNet18)``
+
+| -- ``MNIST (ResNet18)``
+
+| -- ``requirements.txt (python package requirement)``
+
+
 ## Models
 
 | file                  | model        | dataset  | attack ratio | 
@@ -32,32 +55,10 @@ been attacked.
 | gtsrb_resnet_03.pth   | resnet18     | GTSRB    | 0.3          |
 | mnist_resnet_03.pth   | resnet18     | MNIST    | 0.3          |
 
-## How to get the code
-```
-git clone https://github.com/melamaze/SICDF.git
-```
-
-## Model Training 
-Training environment and code is placed in `FL_backdoor_model_training` folder.
-
-| --  ``CIFAR-10``
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | -- ``DesnseNet121``
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | -- ``RegNetY400MF``
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | -- ``ResNet18``
-
-| -- ``GTSRB (ResNet18)``
-
-| -- ``MNIST (ResNet18)``
-
-| -- ``requirements.txt (python package requirement)``
-
 
 ## SICDF
 
-Complete version is in this [link](https://github.com/melamaze/pytorch-grad-cam/tree/FINAL_CAM), or you can use this command to get the code: 
+Complete version is in this [link](https://github.com/melamaze/pytorch-grad-cam/tree/FINAL_CAM), and you can use this command to get the code: 
 ```
 git clone https://github.com/melamaze/pytorch-grad-cam.git -b FINAL_CAM
 ```
