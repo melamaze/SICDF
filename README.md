@@ -33,7 +33,9 @@ been attacked.
 | mnist_resnet_03.pth   | resnet18     | MNIST    | 0.3          |
 
 ## Model Training 
-see 'FL_backdoor_model_training' folder
+see `FL_backdoor_model_training` folder
+
+
 
 ## SICDF
 
