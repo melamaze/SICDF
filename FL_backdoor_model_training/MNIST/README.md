@@ -9,7 +9,7 @@
 ```
 # run the code
 python3 start.py
-# run the code under nohup, and redirect ouput in to log
+# run the code under nohup, and redirect output in to log
 nohup python3 start.py > log &
 ```
 
