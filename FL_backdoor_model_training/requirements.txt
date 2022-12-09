@@ -1,4 +1,4 @@
-certifi==2021.5.30
+certifi==2022.12.7
 cycler==0.11.0
 dataclasses @ file:///tmp/build/80754af9/dataclasses_1614363715916/work
 importlib-resources==5.4.0
